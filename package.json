@@ -1,15 +1,15 @@
 {
-  "name": "@nativescript/template-blank-vue",
+  "name": "nativescript-boilerplate",
   "main": "app/app.js",
-  "displayName": "Blank",
-  "version": "8.0.3",
-  "description": "NativeScript Application",
-  "author": "NativeScript Team <oss@nativescript.org>",
-  "license": "SEE LICENSE IN <your-license-filename>",
-  "repository": "<fill-your-repository-here>",
-  "homepage": "https://github.com/NativeScript/nativescript-app-templates",
+  "displayName": "NativeScript Boilerplate",
+  "version": "1.0.0",
+  "description": "NativeScript Boilerplate Application (VueJS + Default plugin stack)",
+  "author": "Souris.CLOUD <me@souris.cloud>",
+  "license": "MIT",
+  "repository": "https://github.com/souriscloud/nativescript-boilerplate",
+  "homepage": "https://github.com/souriscloud/nativescript-boilerplate",
   "bugs": {
-    "url": "https://github.com/NativeScript/NativeScript/issues"
+    "url": "https://github.com/souriscloud/nativescript-boilerplate/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -34,7 +34,9 @@
     "template",
     "master-detail",
     "detail",
-    "category-general"
+    "category-general",
+    "boilerplate",
+    "plugins"
   ],
   "dependencies": {
     "@nativescript/core": "~8.0.0",
@@ -42,10 +44,10 @@
     "nativescript-vue": "~2.9.0"
   },
   "devDependencies": {
+    "@nativescript/android": "8.0.0",
     "@nativescript/webpack": "beta",
     "nativescript-vue-template-compiler": "~2.9.0",
     "sass": "^1.32.8"
   },
-  "private": "true",
-  "readme": "NativeScript Application"
+  "readme": "NativeScript Boilerplate Application"
 }
